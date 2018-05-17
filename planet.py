@@ -1,3 +1,7 @@
+# Установите модуль ephem
+# Добавьте в бота команду /planet, которая будет принимать на вход название планеты на английском.
+# При помощи условного оператора if и ephem.constellation научите бота отвечать, в каком созвездии сегодня находится планета.
+
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import ephem
 import datetime
